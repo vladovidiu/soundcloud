@@ -1,5 +1,5 @@
 {
-  "name": "soundcloud",
+  "name": "soundcloud-app",
   "version": "1.0.0",
   "description": "Soundcloud Desktop App",
   "main": "index.js",
@@ -27,6 +27,8 @@
     "babel-preset-stage-2": "^6.5.0",
     "chai": "^3.5.0",
     "enzyme": "^2.3.0",
+    "exports-loader": "^0.6.3",
+    "imports-loader": "^0.6.5",
     "jsdom": "^9.2.1",
     "mocha": "^2.5.3",
     "react-addons-test-utils": "^15.1.0",
@@ -42,13 +44,14 @@
     ]
   },
   "dependencies": {
-    "node-soundcloud": "0.0.5",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
     "react-router-redux": "^4.0.5",
     "redux": "^3.5.2",
-    "redux-logger": "^2.6.1"
+    "redux-logger": "^2.6.1",
+    "soundcloud": "^3.1.2",
+    "whatwg-fetch": "^1.0.0"
   }
 }
