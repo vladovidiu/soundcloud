@@ -4,7 +4,7 @@
   "description": "Soundcloud Desktop App",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --hot --config --port 1337 ./webpack.config.js",
+    "start": "webpack-dev-server --progress --colors --hot --port 1337 --config ./webpack.config.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/**/*spec.js'",
     "test:watch": "npm run test -- --watch"
   },
@@ -51,6 +51,7 @@
     "react-router-redux": "^4.0.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
     "soundcloud": "^3.1.2",
     "whatwg-fetch": "^1.0.0"
   }
